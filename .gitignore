@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+.venv/
+.DS_Store
+dist/
+coverage/
+.pytest_cache/
+*.tsbuildinfo
+
+# Local pnpm dependency cache
+.pnpm-store/
+
+# Dedicated local development database data/socket/logs
+.local/
